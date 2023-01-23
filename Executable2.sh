@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Setting wallpaper ...
-pcmanfm --set-wallpaper /bin/Wallpaper.png
+pcmanfm --set-wallpaper home/pi/bin/Wallpaper.png
 echo Defining reboot parameters ...
 cd
 cd /home/pi/.config
