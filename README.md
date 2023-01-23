@@ -28,6 +28,12 @@ This will return information about the address at which node-red is running. The
 ________________________
 The address is ________________________
 
+After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor. 
+
+After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [NEW ADDRESS]:1880/ui . 
+
+
+## Configuring the client Raspberry Pis - Part 3
 # Case 1: The address is 127.0.0.1
 If the adress is 127.0.0.1 then you can run a second file using the following command line in your terminal:
 ```
@@ -37,15 +43,7 @@ bash Executable2.sh
 # Case 2: The address is not 127.0.0.1
 If the address is not 127.0.0.1 then you will need to make a few modifications before you can run the second file. 
 The modifications are as follows:
-1. Go into the autostart file and change the following line:
-```
-_______
-```
-to the following:
-```
-_____
-```
-2. Go into the openchromium2.sh file and change the following line:
+Go into the openchromium2.sh file and change the following line:
 ```
 chromium-browser --start-fullscreen --start-maximized 127.0.0.1:1880/ui
 ```
@@ -53,7 +51,7 @@ to the following:
 ```
 chromium-browser --start-fullscreen --start-maximized [NEW ADDRESS]:1880/ui
 ```
-3. Now run the second file using the following commands:
+Now run the second file using the following commands:
 ```
 cd
 bash Executable2.sh
