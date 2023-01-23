@@ -30,7 +30,7 @@ The address is ________________________
 
 After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor. 
 
-After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [NEW ADDRESS]:1880/ui . 
+After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
 
 
 ## Configuring the client Raspberry Pis - Part 3
