@@ -33,7 +33,7 @@ If the adress is 127.0.0.1 then you can run a second file using the following co
 bash Executable2.sh
 ```
 
-# Case 2: The address is 127.0.0.1
+# Case 2: The address is not 127.0.0.1
 If the address is not 127.0.0.1 then you will need to make a few modifications before you can run the second file. 
 The modifications are as follows:
 1. Go into the autostart file and change the following line:
