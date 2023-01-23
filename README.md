@@ -47,11 +47,11 @@ _____
 ```
 2. Go into the openchromium2.sh file and change the following line:
 ```
-_______
+chromium-browser --start-fullscreen --start-maximized 127.0.0.1:1880/ui
 ```
 to the following:
 ```
-_____
+chromium-browser --start-fullscreen --start-maximized [NEW ADDRESS]:1880/ui
 ```
 3. Now run the second file using the following commands:
 ```
