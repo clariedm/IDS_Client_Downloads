@@ -7,10 +7,11 @@ All of them except “Executable.sh” will be downloaded automatically as you r
 First you will need to download “Executable.sh” onto your Desktop by executing the following command lines in your terminal: 
 ```
 cd Desktop
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/Executable.sh _______
+git clone https://github.com/clariedm/IDS_Client_Downloads/
 ```
-Now you will need to run the file by executing the following command line in your terminal:
+Now you will need to run the file by executing the following command lines in your terminal:
 ```
+cd IDS_Client_Downloads
 bash Executable.sh
 ```
 As the file executes you will be asked to answer a few yes or no questions. You will want to answer yes to all of them except the following:
