@@ -19,15 +19,8 @@ cd
 cd .node-red
 npm i node-red-dashboard
 npm i node-red-node-ui-table
-Downloading files from github ...
-sudo mkdir bin
-cd bin
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/Chargement.gif
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/Wallpaper.png
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/autostart
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/openchromium.sh
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/openchromium2.sh
-curl -LJO https://github.com/philibertsalmon/ids_oasis/blob/master/installations_clients/Executable2.sh
+echo Moving files downloaded from github ...
+mv -v Desktop/IDS_Client_Downloads -t /home/pi/bin
 echo All done ! Rebooting in 10 seconds.
 sleep 10
 sudo reboot
