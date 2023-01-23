@@ -35,8 +35,10 @@ After you've imported the file, click on deploy and close the window. You should
 
 ## Configuring the client Raspberry Pis - Part 3
 # Case 1: The address is 127.0.0.1
-If the adress is 127.0.0.1 then you can run a second file using the following command line in your terminal:
+If the adress is 127.0.0.1 then you can run a second file using the following command lines in your terminal:
 ```
+cd
+cd /home/pi/bin
 bash Executable2.sh
 ```
 
@@ -54,5 +56,6 @@ chromium-browser --start-fullscreen --start-maximized [NEW ADDRESS]:1880/ui
 Now run the second file using the following commands:
 ```
 cd
+cd /home/pi/bin
 bash Executable2.sh
 ```
