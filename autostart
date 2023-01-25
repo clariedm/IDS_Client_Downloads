@@ -2,6 +2,9 @@
 @pcmanfm --desktop --profile LXDE-pi
 @xscreensaver -no-splash
 point-rpi
+@xset s off
+@xset -dpms
+@xset s noblank
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh
 @bash /home/pi/bin/reconnectionBluetooth.sh
