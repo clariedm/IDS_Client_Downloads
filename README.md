@@ -8,13 +8,14 @@ All of them except will be downloaded automatically when you run the first comma
 | :---: | :---: |
 | autostart | shell script setting reboot parameters for the Raspberry Pi|
 | Chargement.gif | gif used as a loading screen as NodeRed can take some timze to start after reboot |
-| desktop-items-0.conf |shell script setting desktop parameters for the Raspberry Pi |
-4. Executable.sh
-5. Executable2.sh
-6. openchromium.sh
-7. openchromium2.sh
-8. README.md
-9. Wallpaper.png
+| desktop-items-0.conf | shell script setting desktop parameters for the Raspberry Pi |
+| Executable.sh | shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
+| Executable2.sh | shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
+| Executable.sh | shell script containing a first set of command to be |
+| openchromium.sh | 
+| openchromium2.sh | 
+| README.md | 
+| Wallpaper.png | 
 
 ## Configuring the client Raspberry Pis - Part 1
 First you will need to download “Executable.sh” onto your Desktop by executing the following command lines in your terminal: 
