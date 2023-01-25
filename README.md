@@ -4,9 +4,11 @@ You will find all the files necessary to configure the client Raspberry Pis here
 All of them except will be downloaded automatically when you run the first command lines.
 
 ## Files:
-1. autostart
-2. Chargement.gif
-3. desktop-items-0.conf
+| Name | Function |
+| :---: | :---: |
+| autostart | shell script setting reboot parameters for the Raspberry Pi|
+| Chargement.gif | gif used as a loading screen as NodeRed can take some timze to start after reboot |
+| desktop-items-0.conf |shell script setting desktop parameters for the Raspberry Pi |
 4. Executable.sh
 5. Executable2.sh
 6. openchromium.sh
