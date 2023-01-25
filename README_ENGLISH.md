@@ -100,6 +100,19 @@ Look for the device with the name HC-05. It's address should be displayed as sho
 ```
 pair [DEVICE_ADDRESS]
 ```
+This should output the following:
+```
+Attempting to pair with [DEVICE_ADDRESS]
+[CHG] Device [DEVICE_ADDRESS] Connected: yes
+Request PIN code
+[agent] Enter PIN code: 
+```
+The PIN code is 1234.
+
+After the device is paired you need to connect using the following command line :
+```
+connect [DEVICE_ADDRESS]
+```
 
 # Part 5:
 
