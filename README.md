@@ -2,7 +2,14 @@ https://forums.raspberrypi.com/viewtopic.php?t=137124
 # IDS_Client_Downloads
 ## Organization
 You will find all the files necessary to configure the client Raspberry Pis here.
-All of them except “Executable.sh” will be downloaded automatically as you run the installation programs.
+All of them except will be downloaded automatically when you run the first command lines.
+
+## Files:
+1. autostart
+2.
+3.
+4.
+5. README.md
 
 ## Configuring the client Raspberry Pis - Part 1
 First you will need to download “Executable.sh” onto your Desktop by executing the following command lines in your terminal: 
