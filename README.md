@@ -5,10 +5,14 @@ All of them except will be downloaded automatically when you run the first comma
 
 ## Files:
 1. autostart
-2.
-3.
-4.
-5. README.md
+2. Chargement.gif
+3. desktop-items-0.conf
+4. Executable.sh
+5. Executable2.sh
+6. openchromium.sh
+7. openchromium2.sh
+8. README.md
+9. Wallpaper.png
 
 ## Configuring the client Raspberry Pis - Part 1
 First you will need to download “Executable.sh” onto your Desktop by executing the following command lines in your terminal: 
