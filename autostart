@@ -4,3 +4,4 @@
 point-rpi
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh
+@bash /home/pi/bin/reconnectionBluetooth.sh
