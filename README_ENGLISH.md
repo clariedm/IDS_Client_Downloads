@@ -85,6 +85,18 @@ scan on
 
 After that you should get something like this: 
 
+```
+Discovery started
+[CHG] Controller B8:27:EB:29:46:68 Discovering: yes
+[NEW] Device 00:0E:EA:CF:22:8E 00-0E-EA-CF-22-8E
+[CHG] Device 00:0E:EA:CF:22:8E LegacyPairing: no
+[CHG] Device [DEVICE_ADDRESS] Name: HC-05
+```
+Look for the device with the name HC-05. It's address should be displayed as shown above, instead of [DEVICE_ADDRESS]. Using this address you will want to pair the device to the raspberry pi using the following command:
+
+```
+pair [DEVICE_ADDRESS]
+```
 
 # Part 5:
 
