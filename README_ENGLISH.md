@@ -13,7 +13,8 @@ All of them except will be downloaded automatically when you run the first comma
 | Executable2.sh | shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
 | openchromium.sh | shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
 | openchromium2.sh | shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
-| README.md | this file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
+| README_ENGLISH.md | this file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
+| README_FRENCH.md | this file, but in french |
 | Wallpaper.png | The wallpaper to be used in the newly configured Raspberry Pi |
 
 ## Configuring the client Raspberry Pis - Part 1
