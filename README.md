@@ -5,7 +5,7 @@ All of them except will be downloaded automatically when you run the first comma
 
 ## Files:
 | Name | Function |
-| :---: | :---: |
+| :---: | --- |
 | autostart | shell script setting reboot parameters for the Raspberry Pi|
 | Chargement.gif | gif used as a loading screen as NodeRed can take some time to start after reboot |
 | desktop-items-0.conf | shell script setting desktop parameters for the Raspberry Pi |
