@@ -41,7 +41,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING> mtu65536
       inet [ADDRESS]  netmask 255.0.0.0
       inet6::1  prefixlen 128 scopeid 0x10<host>
 ```
-The address will be where [ADDRESS] is shown in this example
+The address will be where ```[ADDRESS]``` is shown in this example
 
 After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor. 
 
