@@ -6,18 +6,18 @@ All of them except will be downloaded automatically when you run the first comma
 ## Files:
 | Name | Function |
 | :---: | --- |
-| autostart | shell script setting reboot parameters for the Raspberry Pi|
-| Chargement.gif | gif used as a loading screen as NodeRed can take some time to start after reboot |
-| chromiumManager.py | a python script that closes chromium browser while school is closed and restarts it when school opens again |
-| desktop-items-0.conf | shell script setting desktop parameters for the Raspberry Pi |
-| Executable.sh | shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
-| Executable2.sh | shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
-| openchromium.sh | shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
-| openchromium2.sh | shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
-| README_ENGLISH.md | this file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
-| README_FRENCH.md | this file, but in french |
-| saveEnergy.sh | shell script turning off power output to LEDs and USB ports to save energy |
-
+| autostart | Shell script setting reboot parameters for the Raspberry Pi|
+| Chargement.gif | Gif used as a loading screen as NodeRed can take some time to start after reboot |
+| chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
+| desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
+| Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
+| Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
+| openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
+| openchromium2.sh | Shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
+| README_ENGLISH.md | This file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
+| README_FRENCH.md | This file, but in french |
+| saveEnergy.sh | Shell script that turns off power output to LEDs and USB ports to save energy |
+| screenManager.py | Python script that turns on and off the monitor connected to a Raspberry Pi. It turns it on every day at 8:00 except during the weekends. It turns it off at 21:00. |
 | Wallpaper.png | The wallpaper to be used in the newly configured Raspberry Pi |
 
 ## Configuring the client Raspberry Pis 
