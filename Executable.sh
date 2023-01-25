@@ -24,6 +24,7 @@ npm i node-red-dashboard
 npm i node-red-node-ui-table
 echo Moving files downloaded from github ...
 sudo mv -v Desktop/IDS_Client_Downloads /home/pi/bin
+chmod 755 /home/pi/bin/reconnectionBluetooth.sh
 echo All done ! Rebooting in 10 seconds.
 sleep 10
 sudo reboot
