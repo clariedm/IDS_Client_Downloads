@@ -8,3 +8,6 @@ point-rpi
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh
 @bash /home/pi/bin/reconnectionBluetooth.sh
+@python3 /home/pi/bin/screenManager.py
+@bash /home/pi/bin/saveEnergy.sh
+@python3 /home/pi/bin/chromiumManager.py
