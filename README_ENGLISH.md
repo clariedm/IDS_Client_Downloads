@@ -8,6 +8,7 @@ All of them except will be downloaded automatically when you run the first comma
 | :---: | --- |
 | autostart | shell script setting reboot parameters for the Raspberry Pi|
 | Chargement.gif | gif used as a loading screen as NodeRed can take some time to start after reboot |
+| chromiumManager.py | a python script
 | desktop-items-0.conf | shell script setting desktop parameters for the Raspberry Pi |
 | Executable.sh | shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
 | Executable2.sh | shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
