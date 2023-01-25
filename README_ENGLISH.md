@@ -16,6 +16,8 @@ All of them except will be downloaded automatically when you run the first comma
 | openchromium2.sh | shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
 | README_ENGLISH.md | this file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
 | README_FRENCH.md | this file, but in french |
+| saveEnergy.sh | shell script turning off power output to LEDs and USB ports to save energy |
+
 | Wallpaper.png | The wallpaper to be used in the newly configured Raspberry Pi |
 
 ## Configuring the client Raspberry Pis 
