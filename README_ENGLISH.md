@@ -114,7 +114,7 @@ After the device is paired you need to connect using the following command line 
 connect [DEVICE_ADDRESS]
 ```
 
-# Part 5:
+# Part 5: Final configurations and reboot
 
 Now run the second file using the following commands:
 ```
