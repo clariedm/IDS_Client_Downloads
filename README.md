@@ -1,4 +1,3 @@
-https://forums.raspberrypi.com/viewtopic.php?t=137124
 # IDS_Client_Downloads
 ## Organization
 You will find all the files necessary to configure the client Raspberry Pis here.
