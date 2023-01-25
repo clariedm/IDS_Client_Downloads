@@ -17,7 +17,8 @@ All of them except will be downloaded automatically when you run the first comma
 | README_FRENCH.md | this file, but in french |
 | Wallpaper.png | The wallpaper to be used in the newly configured Raspberry Pi |
 
-## Configuring the client Raspberry Pis - Part 1
+## Configuring the client Raspberry Pis 
+# Part 1 - Downloading updates and documents
 First you will need to download “Executable.sh” onto your Desktop by executing the following command lines in your terminal: 
 ```
 cd Desktop
@@ -33,7 +34,7 @@ ______
 
 When the file is done executing the Raspberry Pi will reboot.
 
-## Configuring the client Raspberry Pis - Part 2
+# Part 2: NodeRed
 Once the Raspberry Pi has rebooted you will want to execute the following command line in your terminal:
 ```
 ifconfig
@@ -49,28 +50,44 @@ The address will be where ```[ADDRESS]``` is shown in this example.
 After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor. 
 
 After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
- ////
 
-## Configuring the client Raspberry Pis - Part 3
-# Case 1: The address is 127.0.0.1
-If the adress is 127.0.0.1 then you can run a second file using the following command lines in your terminal:
-```
-cd
-cd /home/pi/bin
-bash Executable2.sh
-```
+# Part 3: Checking the localhost address for NodeRed
 
-# Case 2: The address is not 127.0.0.1
+If the adress is 127.0.0.1 then you can move on to part 4.
+
 If the address is not 127.0.0.1 then you will need to make a few modifications before you can run the second file. 
 The modifications are as follows:
-Go into the openchromium2.sh file and change the following line:
+
+Change the following line in the openchromium2.sh file:
 ```
 chromium-browser --start-fullscreen --start-maximized 127.0.0.1:1880/ui
 ```
 to the following:
-```
+``` 
 chromium-browser --start-fullscreen --start-maximized [NEW ADDRESS]:1880/ui
 ```
+
+To do so you should use the following command line:
+```
+sudo nano /home/pi/bin/openchromium.sh
+```
+
+# Part 3: Setting up the Bluetooth connection
+
+First, enter the following command lines into a shell window:
+
+```
+bluetoothctl
+power on
+agent on
+scan on
+```
+
+After that you should get something like this: 
+
+
+# Part 5:
+
 Now run the second file using the following commands:
 ```
 cd
