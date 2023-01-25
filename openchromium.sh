@@ -1,2 +1,2 @@
 #!/bin/sh
-chromium-browser --start-fullscreen --start-maximized /home/pi/bin/Chargement.gif 
+chromium-browser --noerrdialogs --start-fullscreen --start-maximized /home/pi/bin/Chargement.gif 
