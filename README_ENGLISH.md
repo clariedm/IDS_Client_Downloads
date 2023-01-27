@@ -33,9 +33,11 @@ cd IDS_Client_Downloads
 bash Executable.sh
 ```
 As the file executes you will be asked to answer a few yes or no questions. You will want to answer yes to all of them except the following:
-______
+```
+      Would you like to customize the settings now (y/N) ?
+```
 
-When the file is done executing the Raspberry Pi will reboot.
+The installs could take up to 30 min. When the file is done executing the Raspberry Pi will reboot.
 
 # Part 2: NodeRed
 Once the Raspberry Pi has rebooted you will want to execute the following command line in your terminal:
@@ -50,7 +52,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING> mtu65536
 ```
 The address will be where ```[ADDRESS]``` is shown in this example.
 
-After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor. 
+After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor (/home/pi/bin). 
 
 After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
 
