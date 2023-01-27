@@ -5,6 +5,7 @@ point-rpi
 @xset s off
 @xset -dpms
 @xset s noblank
+@node-red start
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh
 @bash /home/pi/bin/reconnectionBluetooth.sh 
