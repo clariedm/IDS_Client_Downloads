@@ -12,10 +12,29 @@ All of them except will be downloaded automatically when you run the first comma
 | README_ENGLISH.md | This file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
 | README_FRENCH.md | This file, but in french |
 
+### Configuration files
+
+| autostart | Shell script setting reboot parameters for the Raspberry Pi |
+| desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
+| Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
+| Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
+| openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
+| openchromium2.sh | Shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
+
+### Sensors and Bluetooth connection
+
+| Name | Function |
+| :---: | --- |
+| bluetooth_serial_test.py | Python script setting parameters for Bluetooth connection and data collection |
+| data_capteur.py | Python script for requesting and receiving humidity, temperature and CO2 sensor data from the Arduino Uno |
+| data_loop.py | Python script that ###################### |
+| detecteurIR.py | Python script that configures the PIR sensor |
+
 ### Energy Saving 
 
 | Name | Function |
 | :---: | --- |
+| chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
 | saveEnergy.sh | Shell script that turns off power output to LEDs and USB ports to save energy |
 | screenManager.py | Python script that turns on and off the monitor connected to a Raspberry Pi. It turns it on every day at 8:00 except during the weekends. It turns it off at 21:00. |
 
@@ -25,22 +44,6 @@ All of them except will be downloaded automatically when you run the first comma
 | :---: | --- |
 | Chargement.gif | Gif used as a loading screen as NodeRed can take some time to start after reboot |
 | Wallpaper.png | The wallpaper to be used in the newly configured Raspberry Pi |
-
-### Sensors and Bluetooth connection
-| Name | Function |
-| :---: | --- |
-| autostart | Shell script setting reboot parameters for the Raspberry Pi |
-| bluetooth_serial_test.py | Python script setting parameters for Bluetooth connection and data collection |
-| chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
-| data_capteur.py | Python script for requesting and receiving humidity, temperature and CO2 sensor data from the Arduino Uno |
-| data_loop.py | Python script that ###################### |
-| desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
-| detecteurIR.py | Python script that configures the PIR sensor |
-| Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
-| Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
-| openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
-| openchromium2.sh | Shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
-
 
 ## Configuring the client Raspberry Pis 
 # Part 1 - Downloading updates and documents
