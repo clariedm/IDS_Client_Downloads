@@ -44,13 +44,11 @@ The installs could take up to 30 min. When the file is done executing the Raspbe
 # Part 2: NodeRed
 Once the Raspberry Pi has rebooted you will want to execute the following command line in your terminal:
 ```
-ifconfig
+node-red start
 ```
-This will return information about the address at which node-red is running in the midst of other information. You will find the address under "lo:" , as follows:
+This will return information about the address at which node-red is running in the midst of other information. You will find the address as follows:
 ```
-lo: flags=73<UP,LOOPBACK,RUNNING> mtu65536
-      inet [ADDRESS]  netmask 255.0.0.0
-      inet6::1  prefixlen 128 scopeid 0x10<host>
+27 Jan 16:17:59 - [info] Server now running at https://[ADDRESS]
 ```
 The address will be where ```[ADDRESS]``` is shown in this example.
 
