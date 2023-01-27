@@ -12,6 +12,13 @@ All of them except will be downloaded automatically when you run the first comma
 | README_ENGLISH.md | This file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
 | README_FRENCH.md | This file, but in french |
 
+### Energy Saving 
+
+| Name | Function |
+| :---: | --- |
+| saveEnergy.sh | Shell script that turns off power output to LEDs and USB ports to save energy |
+| screenManager.py | Python script that turns on and off the monitor connected to a Raspberry Pi. It turns it on every day at 8:00 except during the weekends. It turns it off at 21:00. |
+
 ### Graphical Charter
 
 | Name | Function |
@@ -33,8 +40,7 @@ All of them except will be downloaded automatically when you run the first comma
 | Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
 | openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
 | openchromium2.sh | Shell script containing a second set of command to be executed every time the Raspberry Pi reboots |
-| saveEnergy.sh | Shell script that turns off power output to LEDs and USB ports to save energy |
-| screenManager.py | Python script that turns on and off the monitor connected to a Raspberry Pi. It turns it on every day at 8:00 except during the weekends. It turns it off at 21:00. |
+
 
 ## Configuring the client Raspberry Pis 
 # Part 1 - Downloading updates and documents
