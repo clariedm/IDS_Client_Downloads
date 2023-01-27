@@ -7,6 +7,7 @@ All of them except will be downloaded automatically when you run the first comma
 
 ### README files
 
+| Name | Function |
 | :---: | --- |
 | README_ENGLISH.md | This file, containing all the information necessary to configure the client Raspberry Pi and download the necessary files |
 | README_FRENCH.md | This file, but in french |
