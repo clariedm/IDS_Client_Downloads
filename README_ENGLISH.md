@@ -6,7 +6,8 @@ All of them except will be downloaded automatically when you run the first comma
 ## Files:
 | Name | Function |
 | :---: | --- |
-| autostart | Shell script setting reboot parameters for the Raspberry Pi|
+| autostart | Shell script setting reboot parameters for the Raspberry Pi |
+| bluetooth_serial_test.py | Python script setting reboot parameters for the Raspberry Pi |
 | Chargement.gif | Gif used as a loading screen as NodeRed can take some time to start after reboot |
 | chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
 | desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
