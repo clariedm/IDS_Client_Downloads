@@ -16,6 +16,9 @@ cd .node-red
 npm i node-red-dashboard
 npm i node-red-node-ui-table
 npm install node-red-contrib-pythonshell
+npm install node-red-contrib-simpletime
+npm install node-red-node-openweathermap
+npm install node-red-contrib-ui-svg
 echo Moving files downloaded from github ...
 cd
 sudo mv -v /home/pi/Desktop/IDS_Client_Downloads /home/pi/bin
