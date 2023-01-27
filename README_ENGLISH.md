@@ -11,6 +11,7 @@ All of them except will be downloaded automatically when you run the first comma
 | Chargement.gif | Gif used as a loading screen as NodeRed can take some time to start after reboot |
 | chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
 | desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
+| detecteurIR.py | Python script configuring PIR sensor |
 | Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
 | Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
 | openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
