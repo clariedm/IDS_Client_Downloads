@@ -57,7 +57,7 @@ After that, open Chromium through the graphic user interface and go to the addre
 
 After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
 
-# Part 3: Checking the localhost address for NodeRed
+# Part 3: Setting up NodeRed according to its localhost address
 
 If the adress is 127.0.0.1 then you can move on to part 4.
 
