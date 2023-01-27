@@ -111,9 +111,9 @@ Request PIN code
 ```
 The PIN code is 1234.
 
-After the device is paired you need to connect using the following command line :
+After the device is paired, close the command window and open a new one. You will need to connect to the device using the following command line :
 ```
-connect [DEVICE_ADDRESS]
+sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
 
 # Part 5: Final configurations and reboot
