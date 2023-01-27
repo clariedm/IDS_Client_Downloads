@@ -6,7 +6,8 @@ echo Installing bluetooth command package ...
 sudo apt-get install bluetooth pi-bluetooth blueman
 echo Removing legacy nodejs and installing the latest version ...
 sudo apt-get remove nodejs nodejs-legacy -y
-curl -L https://git.io/n-install | bash
+sudo apt-get nodejs -y
+#curl -L https://git.io/n-install | bash
 echo Installing NodeRed ...
 sudo apt install build-essential git curl
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
