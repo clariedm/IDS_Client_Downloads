@@ -10,9 +10,10 @@ All of them except will be downloaded automatically when you run the first comma
 | bluetooth_serial_test.py | Python script setting parameters for Bluetooth connection and data collection |
 | Chargement.gif | Gif used as a loading screen as NodeRed can take some time to start after reboot |
 | chromiumManager.py | Python script that closes chromium browser while school is closed and restarts it when school opens again |
-| data_capteur.py | Python script requesting sensor data from the Arduino Uno |
+| data_capteur.py | Python script for requesting and receiving humidity, temperature and CO2 sensor data from the Arduino Uno |
+| data_loop.py | Python script that 
 | desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
-| detecteurIR.py | Python script configuring PIR sensor |
+| detecteurIR.py | Python script that configures the PIR sensor |
 | Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
 | Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
 | openchromium.sh | Shell script containing a first set of command to be executed every time the Raspberry Pi reboots |
