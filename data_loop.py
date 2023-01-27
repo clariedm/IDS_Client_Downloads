@@ -9,5 +9,3 @@ if (GPIO.input(pir_gpio)==0):
 	print(False)
 elif(GPIO.input(pir_gpio)==1):
 	print(True)
-
-	
