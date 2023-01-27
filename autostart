@@ -7,9 +7,9 @@ point-rpi
 @xset s noblank
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh
-@bash /home/pi/bin/reconnectionBluetooth.sh
-@python3 /home/pi/bin/screenManager.py
-@bash /home/pi/bin/saveEnergy.sh
-@python3 /home/pi/bin/chromiumManager.py
-@python3 /home/pi/bin/bluetooth_serial_test.py
-@python3 /home/pi/bin/detecteurIR.py
+@bash /home/pi/bin/reconnectionBluetooth.sh 
+@python3 /home/pi/bin/screenManager.py &
+@bash /home/pi/bin/saveEnergy.sh &
+@python3 /home/pi/bin/chromiumManager.py &
+@python3 /home/pi/bin/bluetooth_serial_test.py &
+@python3 /home/pi/bin/detecteurIR.py &
