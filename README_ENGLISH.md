@@ -14,6 +14,8 @@ All of them except will be downloaded automatically when you run the first comma
 
 ### Configuration files
 
+| Name | Function |
+| :---: | --- |
 | autostart | Shell script setting reboot parameters for the Raspberry Pi |
 | desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
 | Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
