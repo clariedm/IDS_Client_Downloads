@@ -23,11 +23,6 @@ echo Moving files downloaded from github ...
 cd
 sudo mv -v /home/pi/Desktop/IDS_Client_Downloads /home/pi/bin
 chmod 755 /home/pi/bin/reconnectionBluetooth.sh # Changes access permissions for the shell script that manages the bluetooth reconnection after reboot
-echo Starting flow ...
-cd
-cd /home/pi/bin
-node-red version_sympa.json &
-cd
 echo All done ! Rebooting in 10 seconds ...
 sleep 10
 sudo reboot
