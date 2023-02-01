@@ -1,0 +1,17 @@
+@lxpanel --profile LXDE-pi # The # means the desktop task bar will not show
+@pcmanfm --desktop --profile LXDE-pi # Sets the profile used for desktop parameters
+@xscreensaver -no-splash
+point-rpi
+@xset s off # Prevents the screen from turning off or blanking
+@xset -dpms # Prevents the screen from turning off or blanking
+@xset s noblank # Prevents the screen from turning off or blanking
+@unclutter -idle 0 # Remove mouse arrow
+@node-red start # Starts NodeRed at reboot
+@bash /home/pi/bin/openchromium.sh # Executes the file that opens the loading screen gif in the navigator at reboot
+@bash /home/pi/bin/openchromium2.sh # Executes the file that opens the NodeRed dashboard in the navigator at reboot
+@bash /home/pi/bin/reconnectionBluetooth.sh # Executes the file that re-connects the Raspberry Pi to the Arduino Uno through the HC 05 sensor at reboot
+@python3 /home/pi/bin/screenManager.py # Starts the python script that turns off the screen during the night and turns it back on in the morning
+@bash /home/pi/bin/saveEnergy.sh # Executes the file that turns off USB ports and LEDs at reboot
+@python3 /home/pi/bin/chromiumManager.py # Starts the python script that closes the browser during the night and re-opens it in the morning
+@python3 /home/pi/bin/bluetooth_serial_test.py # Starts the python script that
+@python3 /home/pi/bin/detecteurIR.py # Starts the python script that
