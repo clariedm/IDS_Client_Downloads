@@ -1,4 +1,4 @@
-@lxpanel --profile LXDE-pi
+#@lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi 
 @xscreensaver -no-splash
 point-rpi
@@ -6,7 +6,7 @@ point-rpi
 @xset -dpms
 @xset s noblank
 @unclutter -idle 0 
-@node-red home/pi/bin/version_sympa.json
+@node-red /home/pi/bin/version_sympa.json
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh 
 @bash /home/pi/bin/reconnectionBluetooth.sh
