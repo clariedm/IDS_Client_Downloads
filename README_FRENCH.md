@@ -17,6 +17,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 | Nom | Fonction |
 | :---: | --- |
 | autostart | Script Shell définissant les paramètres de redémarrage pour le Raspberry Pi |
+| autostart_comments | Fichier autostart mais avec des commentaires - Attention !!! Ne doit pas être executé |
 | desktop-items-0.conf | Script shell définissant les paramètres du bureau pour le Raspberry Pi |
 | Executable.sh | Script shell contenant un premier ensemble de commandes implémentant les changements à effectuer dans la configuration du Raspberry Pi, avant que NodeRed ne soit déployé |
 | Executable2.sh | Script shell exécutant un deuxième ensemble de commandes mettant en œuvre les changements à effectuer dans la configuration du Raspberry Pi, après le déploiement de NodeRed |
