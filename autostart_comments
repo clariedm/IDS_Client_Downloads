@@ -1,4 +1,4 @@
-@lxpanel --profile LXDE-pi # The # means the desktop task bar will not show
+#@lxpanel --profile LXDE-pi # The # means the desktop task bar will not show
 @pcmanfm --desktop --profile LXDE-pi # Sets the profile used for desktop parameters
 @xscreensaver -no-splash
 point-rpi
