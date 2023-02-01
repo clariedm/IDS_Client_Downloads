@@ -26,7 +26,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 ### Capteurs et connexion Bluetooth
 
 | Nom | Fonction |
-| :--- : | --- |
+| :---: | --- |
 | bluetooth_serial_test.py | Script Python définissant les paramètres pour la connexion Bluetooth et la collecte de données |
 | data_capteur.py | Script Python pour demander et recevoir les données des capteurs d'humidité, de température et de CO2 de l'Arduino Uno |
 | data_loop.py | Script Python qui ###################### |
