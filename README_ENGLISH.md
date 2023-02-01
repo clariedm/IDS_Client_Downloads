@@ -81,11 +81,7 @@ This will return information about the address at which node-red is running in t
 ```
 27 Jan 16:17:59 - [info] Server now running at https://[ADDRESS]
 ```
-The address will be where ```[ADDRESS]``` is shown in this example.
-
-After that, open Chromium through the graphic user interface and go to the address. When NodeRed opens you should be able to see an import button. You should use it to import the json file that you will find in the bin folder in the file navigtor (/home/pi/bin). 
-
-After you've imported the file, click on deploy and close the window. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
+The address will be where ```[ADDRESS]``` is shown in this example. You should be able to see the NodeRed interface running in your browser at [ADDRESS]:1880/ui . 
 
 # Part 3: Setting up NodeRed according to its localhost address
 
