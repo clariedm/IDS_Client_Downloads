@@ -40,6 +40,11 @@ All of them except will be downloaded automatically when you run the first comma
 | saveEnergy.sh | Shell script that turns off power output to LEDs and USB ports to save energy |
 | screenManager.py | Python script that turns on and off the monitor connected to a Raspberry Pi. It turns it on every day at 8:00 except during the weekends. It turns it off at 21:00. |
 
+### Interface
+| Name | Function |
+| :---: | --- |
+| .json | NodeRed interface |
+
 ### Graphical Charter
 
 | Name | Function |
