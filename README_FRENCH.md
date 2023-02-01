@@ -114,3 +114,40 @@ scan on
 ```
 
 Après cela, vous devriez obtenir quelque chose comme ceci : 
+
+```
+Discovery started
+[CHG] Controller B8:27:EB:29:46:68 Discovering: yes
+[NEW] Device 00:0E:EA:CF:22:8E 00-0E-EA-CF-22-8E
+[CHG] Device 00:0E:EA:CF:22:8E LegacyPairing: no
+[CHG] Device [DEVICE_ADDRESS] Name: HC-05
+```
+
+Recherchez le périphérique portant le nom HC-05. Son adresse doit être affichée comme indiqué ci-dessus, au lieu de [DEVICE_ADDRESS]. En utilisant cette adresse, vous devrez coupler le périphérique au raspberry pi en utilisant la commande suivante :
+
+```
+pair [DEVICE_ADDRESS]
+```
+Le terminal devrait afficher ce qui suit :
+
+```
+Attempting to pair with [DEVICE_ADDRESS]
+[CHG] Device [DEVICE_ADDRESS] Connected: yes
+Request PIN code
+[agent] Enter PIN code: 
+```
+Le code PIN est 1234.
+
+Une fois le dispositif apparié, fermez la fenêtre de commande et ouvrez-en une nouvelle. Vous devrez vous connecter à l'appareil en utilisant la ligne de commande suivante :
+```
+sudo rfcomm connect 0 [DEVICE_ADDRESS] &
+```
+
+# Partie 5 : Configurations finales et redémarrage
+
+Exécutez maintenant le deuxième fichier en utilisant les commandes suivantes :
+```
+cd
+cd /home/pi/bin
+bash Executable2.sh
+```
