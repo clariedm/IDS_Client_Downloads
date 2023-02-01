@@ -1,1 +1,116 @@
+## IDS_Client_Downloads
+## Organisation
+Vous trouverez ici tous les fichiers nécessaires à la configuration des Raspberry Pis clients.
+Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécuterez les premières lignes de commande.
 
+## Fichiers :
+
+### Fichiers README
+
+| Nom | Fonction |
+| :--- : | --- |
+| README_ENGLISH.md | Ce fichier, contenant toutes les informations nécessaires pour configurer le Raspberry Pi client et télécharger les fichiers nécessaires |
+| README_FRENCH.md | Ce fichier, mais en français |
+
+### Fichiers de configuration
+
+| Nom | Fonction |
+| :--- : | --- |
+| autostart | Script Shell définissant les paramètres de redémarrage pour le Raspberry Pi |
+| desktop-items-0.conf | Script shell définissant les paramètres du bureau pour le Raspberry Pi |
+| Executable.sh | Script shell contenant un premier ensemble de commandes implémentant les changements à effectuer dans la configuration du Raspberry Pi, avant que NodeRed ne soit déployé |
+| Executable2.sh | Script shell exécutant un deuxième ensemble de commandes mettant en œuvre les changements à effectuer dans la configuration du Raspberry Pi, après le déploiement de NodeRed |
+| openchromium.sh | Script shell contenant un premier ensemble de commandes à exécuter à chaque redémarrage du Raspberry Pi |
+| openchromium2.sh | Script shell contenant un deuxième ensemble de commandes à exécuter à chaque redémarrage du Raspberry Pi.
+
+### Capteurs et connexion Bluetooth
+
+| Nom | Fonction |
+| :--- : | --- |
+| bluetooth_serial_test.py | Script Python définissant les paramètres pour la connexion Bluetooth et la collecte de données |
+| data_capteur.py | Script Python pour demander et recevoir les données des capteurs d'humidité, de température et de CO2 de l'Arduino Uno |
+| data_loop.py | Script Python qui ###################### |
+| detecteurIR.py | Script Python qui configure le capteur PIR |
+
+### Économie d'énergie 
+
+| Nom | Fonction |
+| :--- : | --- |
+| chromiumManager.py | Script Python qui ferme le navigateur chromium lorsque l'école est fermée et le redémarre à la réouverture de l'école |
+| saveEnergy.sh | Script shell qui coupe l'alimentation des LEDs et des ports USB pour économiser de l'énergie |
+| screenManager.py | Script Python qui allume et éteint le moniteur connecté à un Raspberry Pi. Il l'allume tous les jours à 8h00 sauf le week-end. Il l'éteint à 21:00. |
+
+### Charte graphique
+
+| Nom | Fonction |
+| :--- : | --- |
+| Chargement.gif | Gif utilisé comme écran de chargement car NodeRed peut mettre un certain temps à démarrer après un redémarrage |
+| Wallpaper.png | Le fond d'écran à utiliser dans le Raspberry Pi nouvellement configuré |
+
+## Configuration des Raspberry Pis clients 
+# Partie 1 - Téléchargement des mises à jour et des documents
+Tout d'abord, vous devez télécharger "Executable.sh" sur votre bureau en exécutant les lignes de commande suivantes dans votre terminal : 
+```
+cd Desktop
+git clone https://github.com/clariedm/IDS_Client_Downloads/
+```
+Maintenant, vous devez exécuter le fichier en exécutant les lignes de commande suivantes dans votre terminal :
+```
+cd IDS_Client_Downloads
+bash Executable.sh
+```
+Lors de l'exécution du fichier, il vous sera demandé de répondre à quelques questions par oui ou par non. Vous voudrez répondre oui à toutes les questions, sauf la suivante :
+
+```
+      Would you like to customize the settings now (y/N) ?
+```
+L'installation peut prendre jusqu'à 30 minutes. Lorsque l'exécution du fichier est terminée, le Raspberry Pi redémarre.
+
+# Partie 2 : NodeRed
+Une fois que le Raspberry Pi a redémarré, vous devez exécuter la ligne de commande suivante dans votre terminal :
+```
+node-red start
+```
+Ceci retournera des informations sur l'adresse à laquelle node-red fonctionne au milieu d'autres informations. Vous trouverez l'adresse comme suit :
+```
+27 Jan 16:17:59 - [info] Server now running at https://[ADDRESS]
+```
+L'adresse sera là où ``[ADDRESS]`` est indiqué dans cet exemple.
+
+Après cela, ouvrez Chromium via l'interface utilisateur graphique et allez à l'adresse. Lorsque NodeRed s'ouvre, vous devriez pouvoir voir un bouton d'importation. Vous devez l'utiliser pour importer le fichier json que vous trouverez dans le dossier bin du navigateur de fichiers (/home/pi/bin). 
+
+Après avoir importé le fichier, cliquez sur deploy et fermez la fenêtre. Vous devriez être en mesure de voir l'interface NodeRed fonctionner dans votre navigateur à [ADDRESS]:1880/ui . 
+
+# Partie 3 : Configurer NodeRed en fonction de son adresse locale (localhost)
+
+Si l'adresse est 127.0.0.1, vous pouvez passer à la partie 4.
+
+Si l'adresse n'est pas 127.0.0.1 alors vous devrez faire quelques modifications avant de pouvoir exécuter le second fichier. 
+Les modifications sont les suivantes :
+
+Changez la ligne suivante dans le fichier openchromium2.sh :
+```
+chromium-browser --start-fullscreen --start-maximized 127.0.0.1:1880/ui
+```
+à ce qui suit :
+``` 
+chromium-browser --start-fullscreen --start-maximized [NEW ADDRESS]:1880/ui
+```
+
+Pour ce faire, vous devez utiliser la ligne de commande suivante :
+```
+sudo nano /home/pi/bin/openchromium.sh
+```
+
+# Partie 3 : Configuration de la connexion Bluetooth
+
+Tout d'abord, entrez les lignes de commande suivantes dans une fenêtre shell :
+
+```
+bluetoothctl
+power on
+agent on
+scan on
+```
+
+Après cela, vous devriez obtenir quelque chose comme ceci : 
