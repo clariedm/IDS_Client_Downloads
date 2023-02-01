@@ -8,14 +8,14 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 ### Fichiers README
 
 | Nom | Fonction |
-| :--- : | --- |
+| :---: | --- |
 | README_ENGLISH.md | Ce fichier, contenant toutes les informations nécessaires pour configurer le Raspberry Pi client et télécharger les fichiers nécessaires |
 | README_FRENCH.md | Ce fichier, mais en français |
 
 ### Fichiers de configuration
 
 | Nom | Fonction |
-| :--- : | --- |
+| :---: | --- |
 | autostart | Script Shell définissant les paramètres de redémarrage pour le Raspberry Pi |
 | desktop-items-0.conf | Script shell définissant les paramètres du bureau pour le Raspberry Pi |
 | Executable.sh | Script shell contenant un premier ensemble de commandes implémentant les changements à effectuer dans la configuration du Raspberry Pi, avant que NodeRed ne soit déployé |
@@ -35,7 +35,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 ### Économie d'énergie 
 
 | Nom | Fonction |
-| :--- : | --- |
+| :---: | --- |
 | chromiumManager.py | Script Python qui ferme le navigateur chromium lorsque l'école est fermée et le redémarre à la réouverture de l'école |
 | saveEnergy.sh | Script shell qui coupe l'alimentation des LEDs et des ports USB pour économiser de l'énergie |
 | screenManager.py | Script Python qui allume et éteint le moniteur connecté à un Raspberry Pi. Il l'allume tous les jours à 8h00 sauf le week-end. Il l'éteint à 21:00. |
@@ -43,7 +43,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 ### Charte graphique
 
 | Nom | Fonction |
-| :--- : | --- |
+| :---: | --- |
 | Chargement.gif | Gif utilisé comme écran de chargement car NodeRed peut mettre un certain temps à démarrer après un redémarrage |
 | Wallpaper.png | Le fond d'écran à utiliser dans le Raspberry Pi nouvellement configuré |
 
