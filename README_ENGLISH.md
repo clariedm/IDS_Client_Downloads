@@ -17,6 +17,7 @@ All of them except will be downloaded automatically when you run the first comma
 | Name | Function |
 | :---: | --- |
 | autostart | Shell script setting reboot parameters for the Raspberry Pi |
+| autostart_comments | autostart file but with comments: Caution !!! Should not be run
 | desktop-items-0.conf | Shell script setting desktop parameters for the Raspberry Pi |
 | Executable.sh | Shell script containing a first set of commands implementing the changes to be made in the Raspberry Pi configuration, before NodeRed is deployed |
 | Executable2.sh | Shell script executing a second set of commands implementing the changes to be made in the Raspberry Pi configuration,  after NodeRed is deployed |
