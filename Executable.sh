@@ -26,7 +26,7 @@ chmod 755 /home/pi/bin/reconnectionBluetooth.sh # Changes access permissions for
 echo Starting flow ...
 cd
 cd /home/pi/bin
-node-red version_sympa.json
+node-red version_sympa.json &
 cd
 echo All done ! Rebooting in 10 seconds ...
 sleep 10
