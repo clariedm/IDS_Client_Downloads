@@ -9,7 +9,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 
 | Nom | Fonction |
 | :---: | --- |
-| README_ENGLISH.md | Ce fichier, mais en français |
+| README_ENGLISH.md | Ce fichier, mais en anglais |
 | README_FRENCH.md | Ce fichier, contenant toutes les informations nécessaires pour configurer le Raspberry Pi client et télécharger les fichiers nécessaires |
 
 ### Fichiers de configuration
