@@ -53,7 +53,7 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 | Wallpaper.png | Le fond d'écran à utiliser dans le Raspberry Pi nouvellement configuré |
 
 ## Configuration des Raspberry Pis clients 
-# Partie 1 - Téléchargement des mises à jour et des documents
+# Partie 1 : Téléchargement des mises à jour et des documents
 Tout d'abord, vous devez télécharger "Executable.sh" sur votre bureau en exécutant les lignes de commande suivantes dans votre terminal : 
 ```
 cd Desktop
