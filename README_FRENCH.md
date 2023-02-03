@@ -82,9 +82,7 @@ Ceci retournera des informations sur l'adresse à laquelle node-red fonctionne a
 ```
 L'adresse sera là où ``[ADDRESS]`` est indiqué dans cet exemple.
 
-Après cela, ouvrez Chromium via l'interface utilisateur graphique et allez à l'adresse. Lorsque NodeRed s'ouvre, vous devriez pouvoir voir un bouton d'importation. Vous devez l'utiliser pour importer le fichier json que vous trouverez dans le dossier bin du navigateur de fichiers (/home/pi/bin). 
-
-Après avoir importé le fichier, cliquez sur deploy et fermez la fenêtre. Vous devriez être en mesure de voir l'interface NodeRed fonctionner dans votre navigateur à [ADDRESS]:1880/ui . 
+Vous devriez être en mesure de voir l'interface NodeRed fonctionner dans votre navigateur à [ADDRESS]:1880/ui . 
 
 # Partie 3 : Configurer NodeRed en fonction de son adresse locale (localhost)
 
