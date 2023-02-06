@@ -104,7 +104,7 @@ To do so you should use the following command line:
 sudo nano /home/pi/bin/openchromium.sh
 ```
 
-# Part 3: Setting up the Bluetooth connection
+# Part 4: Setting up the Bluetooth connection
 
 First, enter the following command lines into a shell window:
 
