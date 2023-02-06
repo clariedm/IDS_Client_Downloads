@@ -41,9 +41,10 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 | saveEnergy.sh | Script shell qui coupe l'alimentation des LEDs et des ports USB pour économiser de l'énergie |
 | screenManager.py | Script Python qui allume et éteint le moniteur connecté à un Raspberry Pi. Il l'allume tous les jours à 8h00 sauf le week-end. Il l'éteint à 21:00. |
 
+### Interface
 | Name | Function |
 | :---: | --- |
-| .json | Interface NodeRed |
+| Interface.json | Interface NodeRed |
 
 ### Charte graphique
 
