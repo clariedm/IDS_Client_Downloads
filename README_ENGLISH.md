@@ -44,7 +44,7 @@ All of them except will be downloaded automatically when you run the first comma
 ### Interface
 | Name | Function |
 | :---: | --- |
-| .json | NodeRed interface |
+| Interface.json | NodeRed interface |
 
 ### Graphical Charter
 
