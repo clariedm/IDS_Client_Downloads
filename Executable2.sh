@@ -3,7 +3,6 @@ echo Defining reboot parameters ...
 cd
 cd /home/pi/.config
 sudo mkdir -p lxsession/LXDE-pi # Creates the directories where the autostart file will be stored
-sudo mkdir -p pcmanfm/LXDE-pi # Creates the directories where the desktop-items-0 file will be stored
 cd 
 sudo mv /home/pi/bin/autostart /home/pi/.config/lxsession/LXDE-pi/autostart # Moves the autostart file from bin to the newly created directories
 echo Setting wallpaper ...
