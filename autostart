@@ -12,5 +12,4 @@ point-rpi
 @bash /home/pi/bin/reconnectionBluetooth.sh
 @python3 /home/pi/bin/screenManager.py 
 @bash /home/pi/bin/saveEnergy.sh 
-@python3 /home/pi/bin/chromiumManager.py 
-@python3 /home/pi/bin/bluetooth_serial_test.py
+@python3 /home/pi/bin/chromiumManager.py
