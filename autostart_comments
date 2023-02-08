@@ -13,5 +13,3 @@ point-rpi
 @python3 /home/pi/bin/screenManager.py # Starts the python script that turns off the screen during the night and turns it back on in the morning
 @bash /home/pi/bin/saveEnergy.sh # Executes the file that turns off USB ports and LEDs at reboot
 @python3 /home/pi/bin/chromiumManager.py # Starts the python script that closes the browser during the night and re-opens it in the morning
-@python3 /home/pi/bin/bluetooth_serial_test.py # Starts the python script that
-@python3 /home/pi/bin/detecteurIR.py # Starts the python script that indicates whether someone is close
