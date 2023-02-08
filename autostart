@@ -1,5 +1,6 @@
 #@lxpanel --profile LXDE-pi
 #@pcmanfm --desktop --profile LXDE-pi 
+@gpicview --start-full-screen --start-maximized /home/pi/bin/Wallpaper.png
 @xscreensaver -no-splash
 point-rpi
 @xset s off
