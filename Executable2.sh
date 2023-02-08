@@ -6,6 +6,7 @@ sudo mkdir -p lxsession/LXDE-pi # Creates the directories where the autostart fi
 cd 
 sudo mv /home/pi/bin/autostart /home/pi/.config/lxsession/LXDE-pi/autostart # Moves the autostart file from bin to the newly created directories
 cd
+sed -i "s/^Wastebasket_value.*/Wastebasket_value=0/" /etc/xdg/pcmanfm/LXDE-pi/desktop-items-0.conf
 sudo rm /etc/xdg/pcmanfm/LXDE-pi/desktop-items-0.conf # Deletes the existing desktop-items-0.conf file
 sudo mv /home/pi/bin/desktop-items-0.conf /etc/xdg/pcmanfm/LXDE-pi/ # Moves the downloaded desktop-items-0.conf file to replace it
 sudo rm /etc/xdg/pcmanfm/LXDE-pi/desktop-items-1.conf # Deletes the existing desktop-items-0.conf file
