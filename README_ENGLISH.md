@@ -145,6 +145,7 @@ sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 
 # Part 5: Final configurations and reboot
 
+First right-click the Wastebasket on the Desktop through the GUI, and select "Hide Wastebasket"
 Now run the second file using the following commands:
 ```
 cd
