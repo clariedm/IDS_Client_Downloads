@@ -149,7 +149,7 @@ sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 
 # Partie 5 : Configurations finales et redémarrage
 
-Exécutez maintenant le deuxième fichier en utilisant les commandes suivantes :
+Premièrement, faites un clic droit sur la corbeille et sélectionnez "Remove from Desktop" dans le menu, à travers l'interface graphique de la carte. Exécutez maintenant le deuxième fichier en utilisant les commandes suivantes :
 ```
 cd
 cd /home/pi/bin
