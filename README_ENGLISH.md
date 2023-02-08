@@ -27,10 +27,8 @@ All of them except will be downloaded automatically when you run the first comma
 
 | Name | Function |
 | :---: | --- |
-| bluetooth_serial_test.py | Python script setting parameters for Bluetooth connection and data collection |
 | data_capteur.py | Python script for requesting and receiving humidity, temperature and CO2 sensor data from the Arduino Uno |
 | data_loop.py | Python script that prints true if the PIR sensor detects motion or false if it doesn't |
-| detecteurIR.py | Python script that configures the PIR sensor |
 
 ### Energy Saving 
 
