@@ -1,11 +1,11 @@
 #@lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi 
-@xscreensaver -no-splash
+@xscreensaver #-no-splash
 point-rpi
 @xset s off
 @xset -dpms
 @xset s noblank
-#@unclutter -idle 0 
+@unclutter -idle 0 
 @node-red /home/pi/bin/Interface.json
 @bash /home/pi/bin/openchromium.sh
 @bash /home/pi/bin/openchromium2.sh 
