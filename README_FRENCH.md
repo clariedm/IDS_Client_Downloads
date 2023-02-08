@@ -27,10 +27,8 @@ Tous sauf ceux qui seront téléchargés automatiquement lorsque vous exécutere
 
 | Nom | Fonction |
 | :---: | --- |
-| bluetooth_serial_test.py | Script Python définissant les paramètres pour la connexion Bluetooth et la collecte de données |
 | data_capteur.py | Script Python pour demander et recevoir les données des capteurs d'humidité, de température et de CO2 de l'Arduino Uno |
 | data_loop.py | Script Python qui renvoie true si le capteur PIR détecte du mouvement, et renvoie false s'il n'en détecte pas |
-| detecteurIR.py | Script Python qui configure le capteur PIR |
 
 ### Économie d'énergie 
 
