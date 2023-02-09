@@ -139,8 +139,10 @@ After the device is paired, close the command window and open a new one. You wil
 ```
 sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
-To finish the Bluetooth configuration you will need to go into the reconnectionBluetooth.sh file and change ---- to [DEVICE_ADDRESS] as follows :
+To finish the Bluetooth configuration you will need to go into the reconnectionBluetooth.sh file and change 98:D3:51:FD:C8:BB to [DEVICE_ADDRESS] as follows :
 ```
+#/bin/sh
+sleep 20
 sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
 
