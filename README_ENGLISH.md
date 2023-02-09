@@ -139,11 +139,16 @@ After the device is paired, close the command window and open a new one. You wil
 ```
 sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
-To finish the Bluetooth configuration you will need to go into the '------' file and change ---- to [DEVICE_ADDRESS] as follows :
+To finish the Bluetooth configuration you will need to go into the reconnectionBluetooth.sh file and change ---- to [DEVICE_ADDRESS] as follows :
 ```
 sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
 
+To do so, you can enter the following command line:
+
+```
+sudo nano /home/pi/bin/reconnectionBluetooth.sh
+```
 # Part 5: Final configurations and reboot
 
 Now run the second file using the following commands:
