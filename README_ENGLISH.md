@@ -151,6 +151,7 @@ To do so, you can enter the following command line:
 ```
 sudo nano /home/pi/bin/reconnectionBluetooth.sh
 ```
+
 # Part 5: Final configurations and reboot
 
 Now run the second file using the following commands:
