@@ -144,6 +144,19 @@ Une fois le dispositif apparié, fermez la fenêtre de commande et ouvrez-en une
 sudo rfcomm connect 0 [DEVICE_ADDRESS] &
 ```
 
+To finish the Bluetooth configuration you will need to go into the reconnectionBluetooth.sh file and change 98:D3:51:FD:C8:BB to [DEVICE_ADDRESS] as follows :
+```
+#/bin/sh
+sleep 20
+sudo rfcomm connect 0 [DEVICE_ADDRESS] &
+```
+
+To do so, you can enter the following command line:
+
+```
+sudo nano /home/pi/bin/reconnectionBluetooth.sh
+```
+
 # Partie 5 : Configurations finales et redémarrage
 
 Exécutez maintenant le deuxième fichier en utilisant les commandes suivantes :
